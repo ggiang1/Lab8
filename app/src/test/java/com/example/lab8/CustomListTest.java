@@ -72,6 +72,7 @@ public class CustomListTest {
 
         assertThrows(IllegalArgumentException.class, () -> {
             list.deleteCity(newCity);
+
         });
 
     }
